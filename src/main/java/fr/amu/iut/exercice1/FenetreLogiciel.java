@@ -5,7 +5,7 @@ import javafx.stage.Stage;
 
 public class FenetreLogiciel extends Application {
 
-    // petite modification
+    // petite modificatio
     @Override
     public void start(Stage primaryStage) {
         // code de l'exercice 1
