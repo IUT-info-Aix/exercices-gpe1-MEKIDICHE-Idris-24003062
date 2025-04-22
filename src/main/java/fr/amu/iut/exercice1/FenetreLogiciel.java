@@ -5,9 +5,11 @@ import javafx.stage.Stage;
 
 public class FenetreLogiciel extends Application {
 
+    // petite modification
     @Override
     public void start(Stage primaryStage) {
         // code de l'exercice 1
+
     }
 
     public static void main(String[] args) {
