@@ -40,6 +40,8 @@ public class FenetreLogiciel extends Application {
         gridpane.add(new Button("Cancel"), 1, 4);
         root.setCenter(gridpane);
 
+
+
         // Création de la ligne de séparation
         Separator sep = new Separator();
         // Ajout du conteneur à la scene
