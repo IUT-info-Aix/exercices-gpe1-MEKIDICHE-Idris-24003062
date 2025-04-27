@@ -47,8 +47,8 @@ public class TicTacToe extends Application {
                     imageView = new ImageView(new Image("exercice2/Vide.png"));
                 }
 
-                imageView.setFitWidth(100);
-                imageView.setFitHeight(100);
+                imageView.setFitWidth(80);
+                imageView.setFitHeight(80);
 
                 label.setGraphic(imageView);
                 label.setStyle("-fx-border-color: grey; -fx-border-width: 1px;");
@@ -78,7 +78,7 @@ public class TicTacToe extends Application {
 
             // Vérifier si le joueur a gagné
             if (aGagne(tourCroix ? "X" : "O")) {
-                break; // Partie terminée
+                break;
             }
 
             tourCroix = !tourCroix; // Changer de joueur
